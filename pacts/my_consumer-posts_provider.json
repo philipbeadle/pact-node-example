@@ -8,7 +8,7 @@
   "interactions": [
     {
       "description": "a request for all posts",
-      "provider_state": "Has two posts",
+      "providerState": "Has two posts",
       "request": {
         "method": "GET",
         "path": "/post/list",
@@ -39,7 +39,7 @@
     },
     {
       "description": "a request for one post",
-      "provider_state": "Has one post",
+      "providerState": "Has one post",
       "request": {
         "method": "GET",
         "path": "/post/1",
@@ -63,6 +63,8 @@
     }
   ],
   "metadata": {
-    "pactSpecificationVersion": "2.0.0"
+    "pactSpecification": {
+      "version": "2.0.0"
+    }
   }
 }
