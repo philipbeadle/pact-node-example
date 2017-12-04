@@ -107,8 +107,8 @@ describe('Pact', () => {
         	// do something
         });
 
-        // provider.finalize().then(() => {
-        //     wrapper.removeAllServers()
-        // })
+        provider.finalize().then(() => {
+            wrapper.removeAllServers()
+        })
     });
 });

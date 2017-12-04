@@ -1,5 +1,5 @@
-I, [2017-12-04T16:09:05.880509 #5008]  INFO -- : Registered expected interaction GET /post/list
-D, [2017-12-04T16:09:05.880723 #5008] DEBUG -- : {
+I, [2017-12-04T16:28:25.399595 #5132]  INFO -- : Registered expected interaction GET /post/list
+D, [2017-12-04T16:28:25.399850 #5132] DEBUG -- : {
   "description": "a request for all posts",
   "providerState": "Has two posts",
   "request": {
@@ -30,8 +30,8 @@ D, [2017-12-04T16:09:05.880723 #5008] DEBUG -- : {
     }
   }
 }
-I, [2017-12-04T16:09:05.884582 #5008]  INFO -- : Registered expected interaction GET /post/1
-D, [2017-12-04T16:09:05.884669 #5008] DEBUG -- : {
+I, [2017-12-04T16:28:25.404849 #5132]  INFO -- : Registered expected interaction GET /post/1
+D, [2017-12-04T16:28:25.404943 #5132] DEBUG -- : {
   "description": "a request for one post",
   "providerState": "Has one post",
   "request": {
@@ -55,8 +55,8 @@ D, [2017-12-04T16:09:05.884669 #5008] DEBUG -- : {
     }
   }
 }
-I, [2017-12-04T16:09:05.890562 #5008]  INFO -- : Received request GET /post/list
-D, [2017-12-04T16:09:05.890629 #5008] DEBUG -- : {
+I, [2017-12-04T16:28:25.411861 #5132]  INFO -- : Received request GET /post/list
+D, [2017-12-04T16:28:25.411935 #5132] DEBUG -- : {
   "path": "/post/list",
   "query": "",
   "method": "get",
@@ -67,8 +67,8 @@ D, [2017-12-04T16:09:05.890629 #5008] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2017-12-04T16:09:05.890801 #5008]  INFO -- : Found matching response for GET /post/list
-D, [2017-12-04T16:09:05.890859 #5008] DEBUG -- : {
+I, [2017-12-04T16:28:25.412112 #5132]  INFO -- : Found matching response for GET /post/list
+D, [2017-12-04T16:28:25.412196 #5132] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json"
@@ -88,8 +88,8 @@ D, [2017-12-04T16:09:05.890859 #5008] DEBUG -- : {
     ]
   }
 }
-I, [2017-12-04T16:09:05.897077 #5008]  INFO -- : Received request GET /post/1
-D, [2017-12-04T16:09:05.897144 #5008] DEBUG -- : {
+I, [2017-12-04T16:28:25.418770 #5132]  INFO -- : Received request GET /post/1
+D, [2017-12-04T16:28:25.418843 #5132] DEBUG -- : {
   "path": "/post/1",
   "query": "",
   "method": "get",
@@ -100,8 +100,8 @@ D, [2017-12-04T16:09:05.897144 #5008] DEBUG -- : {
     "Version": "HTTP/1.1"
   }
 }
-I, [2017-12-04T16:09:05.897283 #5008]  INFO -- : Found matching response for GET /post/1
-D, [2017-12-04T16:09:05.897332 #5008] DEBUG -- : {
+I, [2017-12-04T16:28:25.419007 #5132]  INFO -- : Found matching response for GET /post/1
+D, [2017-12-04T16:28:25.419065 #5132] DEBUG -- : {
   "status": 200,
   "headers": {
     "Content-Type": "application/json"
@@ -114,3 +114,4 @@ D, [2017-12-04T16:09:05.897332 #5008] DEBUG -- : {
     }
   }
 }
+I, [2017-12-04T16:28:25.428562 #5132]  INFO -- : Writing pact for Posts Provider to /Users/philipbeadle/Projects/elabor8/pact-node-example-consumer/pacts/my_consumer-posts_provider.json
