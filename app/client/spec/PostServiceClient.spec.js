@@ -24,8 +24,8 @@ describe('Pact', () => {
     // Define expected payloads
     const expectedBodyPostList = {
         posts: [
-            {id: 1, date: '01/10/2016', contents: 'Bla bla bla'},
-            {id: 2, date: '01/09/2016', contents: 'Microservice microservice'}
+            {id: 1, date: '01/10/2017', contents: 'Bla bla bla'},
+            {id: 2, date: '01/09/2017', contents: 'Microservice microservice'}
         ]
     };
 
