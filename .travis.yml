@@ -8,5 +8,3 @@ cache:
 script:
 - npm install
 - mocha app/client/spec/PostServiceClient.spec.js
-- sleep 5
-- node app/service/spec/PostService.spec.js
