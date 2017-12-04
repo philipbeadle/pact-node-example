@@ -22,3 +22,6 @@ Run provider-side tests
 ```
 node app/service/spec/PostService.spec.js
 ```
+
+
+curl -X DELETE -u 'sSR6cB6Jt8UE8dyx5pc5QD7V8x2Of:krnrmVVeYYDEMmjeysh8r8GoK0iktOm' https://elabor8.pact.dius.com.au/pacticipants/My%20Consumer
